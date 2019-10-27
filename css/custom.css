@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Staatliches', cursive;
+}
+
+p, html {
+    font-family: 'Lato', sans-serif;
+}
+
+.modal {
+    overflow: initial;
+    height: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.12);
+}
+
+.card a img {
+    max-width: 100%;
+}
+
+.card .btn {
+    float: right;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-footer {
+    border-top: 1px solid rgba(179, 179, 179, 0.125);
+}
+
+.card-text {
+    text-align: left;
+    white-space: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        width: 100%;
+    }
+}
